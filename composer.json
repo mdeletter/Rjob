@@ -1,13 +1,17 @@
 {
-    "name": "redisjobs/redisjobs",
-    "description": "Simple jobqueue implementation using Redis",
+    "name": "rjob/rjob",
+    "description": "Simple PHP jobqueue framework using Redis",
     "require": {
-        "predis/predis": "0.7.x-dev"
+        "predis/predis": "0.7.x-dev",
+        "monolog/monolog": "1.3.x-dev"
     },
     "authors": [
         {
             "name": "Martijn De Letter",
             "email": "martijndeletter@gmail.com"
         }
-    ]
+    ],
+    "autoload": {
+      "psr-0": {"Rjob": "src/"}
+    }
 }

@@ -1,4 +1,4 @@
-Redis Jobs
+Rjob
 ======
 
 Simple PHP jobqueue framework using Redis.
@@ -12,7 +12,6 @@ Redis Jobs requires the following:
 
 Installation
 ------------
-
 
 
 License
