@@ -1,0 +1,13 @@
+{
+    "name": "redisjobs/redisjobs",
+    "description": "Simple jobqueue implementation using Redis",
+    "require": {
+        "predis/predis": "0.7.x-dev"
+    },
+    "authors": [
+        {
+            "name": "Martijn De Letter",
+            "email": "martijndeletter@gmail.com"
+        }
+    ]
+}
